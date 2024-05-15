@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<style type="text/css">
+  text {
+    text-anchor: middle; font-size: 80px; opacity: 0;
+  }
+</style>
+
+<style id="blink-43547dcb-4a4c-4bd8-af3b-40ea7f242307" data-anikit="">@keyframes blink-43547dcb-4a4c-4bd8-af3b-40ea7f242307 {
+  0% { opacity: 1; }
+  49.75% { opacity: 1; }
+  50.25% { opacity: 0; }
+  99.5% { opacity: 0; }
+  100% { opacity: 1; }
+}</style></svg>

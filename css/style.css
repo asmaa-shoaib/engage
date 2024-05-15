@@ -1,0 +1,457 @@
+body{
+ 
+    height: 1500px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 1.38em;
+   /* overflow: hidden;*/
+}
+
+.over-lay-loading{
+    position: fixed;
+    background-color: #fff;
+    top: 0;right: 0;bottom: 0;left: 0;
+    z-index: 8;
+}
+h2{
+    
+    margin: auto;
+    font-size: 36px;
+    font-weight: 400;
+    text-align:center ;
+}
+.container-fluid{
+    width: 94%;
+    
+}
+.p-descrip{
+    color: rgb(124, 124, 124);
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+header{
+    overflow: hidden;
+    margin: 0 !important;
+    height: 800px;
+    background: url(../img/pexels-fauxels-3183152.jpg) repeat scroll center center / cover;
+
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;    
+    box-shadow: 0px 1px 1px 0px #0000000a;
+    z-index: 5;
+    background-color: #fff;
+    
+}
+header .headerOverLay{
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.692);
+    overflow: hidden;
+}
+header nav .nav-item{
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    
+}
+header .navbar-brand img{
+    width: 150px;
+}
+header nav .nav-item a{
+    color: #999;
+    cursor: pointer;   
+}
+header nav .nav-item{
+    position: relative;
+    transition: all .5s;
+}
+
+
+/* header nav .nav-item:hover::before{
+    content:"";
+    border-top: 2.5px solid #4caf50;
+    position: absolute;
+    top: -53%;
+    left: 0;
+    width: 100%;
+    height: 150%;
+} */
+header nav .dropdown-menu{
+    border-radius: 0px !important;
+}
+header nav .dropdown-menu .dropdown-item:hover{
+    padding-left:30px ;
+    padding-top: 10px;
+    box-shadow: 0px 3px 3px 0px rgba(153, 153, 153, 0.746);
+}
+header nav .dropdown-menu .dropdown-item{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: lowercase;
+    transition: all .5s;
+}
+header .header-caption{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    height: 40%;
+    position: relative;
+    top:255px;
+
+}
+header .header-caption p{
+    font-size: 20px;
+}
+header .header-caption h1{
+    font-size: 50px;
+    font-weight: 400 !important;
+}
+header .header-caption .btn{
+    background-color: #4caf50;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    transition: all .5s;
+}
+header .header-caption .btn:hover{
+    background-color: #fff;
+    color: #999;
+}
+.contact{
+    border-radius: 2px;
+    background-color: #4caf50;
+    color: #fff;
+    transition: all .5s;
+}
+
+.contNav:hover::before{
+    border-top: solid 0px rgb(199, 6, 6) !important;
+    content:"";
+    position: absolute;
+    top: -80%;
+    left: 0;
+    width: 0%;
+    height: 0%;
+}
+.contact:hover{
+    background-color: #4caf50 !important;
+    color: #fff !important;
+}
+.overBtn{
+    position: fixed;
+    top: 32%;
+    right: 0%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-radius: 3px;
+    height: 50px;
+    width: 40px;
+    box-shadow: 0px 1px 6px 1px #635a5a38;
+}
+.overBtn a{
+    color: #999;
+    padding-right:10px ;
+    width: 185px;
+    text-align: right;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.overBtn a span{
+    text-align: center;
+    position: relative;
+    padding:5px ;
+    background-color: #fff;
+    width: 140px;
+    border-radius: 3px;
+    opacity: 0;
+}   
+.overBtn a .icon:hover{
+    color: rgb(76, 125, 216);
+}
+.overBtn a:hover span{
+   opacity: 1;
+}
+.overBtn a span:hover{
+    background-color:rgb(76, 125, 216) ;
+    color: #fff;
+}
+
+header .icon-down{
+    color: rgb(114, 114, 114);
+    position: fixed;
+    z-index: 6;
+    bottom: 30px;
+    right: 30px;
+    opacity: 0;
+}
+
+/* about*/
+.about-section{
+    background-color: #fff;
+}
+.about-section .about-item .icon{
+    color: #4caf50;
+}
+.about-section .about-item .about-item-caption h5{
+    font-weight: 400 !important;
+    color: #303030;
+}
+.about-section .about-item .about-item-caption p{
+    color: rgb(134, 134, 134);
+}
+
+/*service*/
+.service-section{
+    background-color: rgb(248, 248, 248);
+
+}
+.service-section .p-descrip{
+    color: rgb(124, 124, 124);
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.service-section .service-item{
+
+
+}
+.service-section .service-item .service-item-img{
+    overflow: hidden;
+}
+.service-section .service-item .service-item-img img{
+    transition: all .7s;
+}
+.service-section .service-item .service-item-img img:hover{
+    transform: scale(1.04,1.04);
+}
+.service-section .service-item .service-item-caption h4{
+    color: #303030;
+    line-height: 1.86em;
+    
+    font-family: 'Open Sans',arial;
+   
+}
+.service-section .service-item .service-item-caption p{
+    color: #999;
+}
+.service-section .service-item .service-item-caption a{
+    color: #4b4b4b;
+}
+
+.ourSecret-section{
+
+}
+.ourSecret-section .ourSecretCaption{
+   
+}
+.ourSecret-section .ourSecretCaption h2{
+    text-align: left;
+    font-size: 30px;
+    color: #303030;
+}
+.ourSecret-section .ourSecretCaption p{
+    color: #999;
+    line-height: 25px;
+    text-transform: initial;
+}
+.ourSecret-section .ourSecretCaption  ul{
+    list-style-type: none;
+    color: rgb(146, 146, 146);
+    padding: 0;
+}
+.ourSecret-section .ourSecretCaption  ul li{
+
+
+}
+.ourSecret-section .ourSecretCaption  ul li .icon{
+    color: #4caf50;
+}
+.ourSecret-section .ourSecretCaption button{
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color .5s;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+.ourSecret-section .ourSecretCaption button:hover{
+    background-color: #303030;
+    color: #fff;
+}
+/*number*/
+.numbers-section{
+    background-color: #f5f5f5;
+}
+.numbers-section .icon{
+    color: #4caf50;
+}
+.numbers-section h2{
+    font-size: 50px;
+    color: #414141;
+}
+.numbers-section span{
+    color: #999;
+    font-size: 20px;
+
+}
+.info-section{
+    height: 70vh;
+    background: url(../img/pexels-philipp-birmes-830891.jpg)  repeat scroll center center / cover;
+    
+
+}
+.info-section .over-lay{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+.info-section .info-caption{
+    color: #fff;
+}
+.info-section .info-caption p{
+    width: 70%;
+    font-size: 1.15em;
+    line-height: 1.86em;
+}
+
+.info-section .info-caption button{
+    background-color: #4caf50;
+    color: #fff;
+    transition: background-color .5s;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+.info-section .info-caption button:hover{
+    background-color: #ffffff;
+    color: #303030;
+}
+@media (max-width:992px){
+    .info-section .info-caption p{
+        width: 100%;
+        font-size: 1.1em;
+    line-height: 1.5em;
+
+    }
+    .info-section .info-caption{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+  
+}
+
+.otherService-section{
+
+}
+.otherService-section .otherServiceItem{
+   
+}
+.otherService-section .otherServiceItem h4{
+    font-weight: 400;
+    font-size: 20px;
+    color: #303030;
+}
+.otherService-section .otherServiceItem p{
+    color: rgb(133, 133, 133) ;
+    line-height: 25px;
+}
+
+.brand-section{
+    background-color: rgb(245, 245, 245);
+    opacity: .7;
+}
+.brand-section .container-fluid{
+    width: 80%;
+}
+.contact-section{
+    background-color: #4caf50;
+    color: white;
+}
+.contact-section p{
+    font-size: 1.1em;
+}
+.contact-section .btn{
+    background-color: #fff;
+
+}
+.footer-section{
+    background-color: #1b1b1b;
+    background-image: url(../img/logo_01.png);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    
+
+}
+.footer-section h5{
+    color: #fff ;
+    font-weight: 400;
+}
+.footer-section p,ul li{
+    color: #58606b;
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: initial;    
+    
+}
+.footer-section ul li a{
+    color: #58606b;
+    transition: all .5s;
+}
+.footer-section ul li a:hover{
+    color: #4176c0;
+    text-decoration: none;
+}
+.footer-section ul{
+    padding: 0;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    color: #58606b;
+}
+footer .container-fluid{
+    width: 90%;
+    
+}
+footer span a{
+    background-color: black;
+    transition: all .5s;
+}
+footer span a:hover .icon{
+    color: #fff;
+    transition: all .5s;
+}
+footer .face:hover{
+    background-color: rgb(34, 55, 243);
+    
+}
+footer .google:hover{
+    background-color: rgb(255, 30, 0);
+}
+footer .google:hover{
+    background-color: rgb(255, 30, 0);
+}
+footer .linkedIn:hover ,.twitter:hover{
+    background-color: #4176c0;
+}
+footer span a .icon{
+    color: #58606b;
+
+}
+
