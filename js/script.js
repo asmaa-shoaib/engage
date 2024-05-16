@@ -47,8 +47,14 @@ $("a").click(function(){
 $("#icon-down").click(function(){
     $("html").animate({scrollTop:0},1000)
 })
-/* 
+
+
 $(document).ready(function(){
-    $("#loading").fadeOut(500);
-    $("html").css("overflow","auto");
-}) */
+    $("#loading").fadeOut(2000,function(){
+        $(".over-lay-loading").css("visibility","hidden");
+        
+        $("body").css("overflow","auto");
+    });
+   
+
+})
